@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css html</title>
+</head>
+<style>
+    .mondai1{
+        
+        background-color:black;
+        padding:40px 0px;
+        color:white;
+        }
+    span{
+        font-size:200%;
+    }
+    h3{
+        text-align: center;
+    }
+    a{
+        float:right;
+padding-top:5px;
+color:white;
+margin:10px;
+text-decoration: none;
+      
+  }
+  a:hover{
+    color:blueviolet;
+  }
+    
+    form{
+        margin-right:250px;
+        margin-left:250px;
+       display:flex;
+       flex-direction: column;
+    }
+    .item{
+        padding:15px
+    }
+#submit{
+    width:80px;
+    height:30px
+}
+
+
+</style>
+<body>
+    <header class="mondai1">
+    
+            <div class="menu">
+                <span>Hotel Search</span>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        
+    </header>
+    <tbody>
+        <div>
+            <h3>Find the Perfect Hotel for You</h3>
+            <form>
+                <lable for="address">Destination:</lable><br/>
+                <input class="item" required type="text" placeholder="Enter a city or town"><br/>
+                <label for="check-in">Check-in</label><br/>
+                <input class="item" required type="date"><br/>
+                <label for="check-out">Check-out</label><br/>
+                <input class="item" required type="date"><br/>
+                <label for="people">Guests</label>
+                <select class="item">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    
+                </select><br/>
+
+                <input id="submit" type="submit" value="Search">
+            </form>
+            <p>©2023 Hotel Search.All rights reserved.</p>
+        </div>
+    </tbody>
+    
+</body>
+</html>

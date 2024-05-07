@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HTML BAI THỰC HÀNH 4</title>
+</head>
+<style>
+    .menu{
+        border:1px solid black;
+        margin-right:500px;
+        background-color: rgba(248, 239, 239, 0.842);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        text-align: center;
+    }
+    .mondai4{
+        border:1px solid rgba(248, 239, 239, 0.842);
+        background-color: white;
+        margin:20px;
+        padding-left:30px;
+        padding-top: 30px;
+    }
+    .box{
+        padding:15px;
+        margin:0px;
+        border: 1px solid rgb(249, 244, 244);
+        width:450px;
+        
+    }
+    
+        
+    #submit{
+        background-color: black;
+        color:white;
+        padding:10px;
+        border-radius: 5px;        
+    }
+    .menu1{
+        border:1px solid black;
+        margin-right:500px;
+        background-color: rgba(248, 239, 239, 0.842);
+        font-family: 'Times New Roman', Times, serif;}
+    .mondai5{
+        border:1px solid  rgba(248, 239, 239, 0.842);
+        background-color: rgb(235, 205, 166);
+        padding: 20px 0px 20px 20px;
+        margin:30px;
+        display:flex;
+        flex-direction: column;
+    }
+    .box1{
+        padding:20px;
+        background-color: rgba(248, 239, 239, 0.842);
+        border:0;
+
+    }
+    .button{
+        width:100px;
+        height:40px;
+        background-color:blue;
+        color:white;
+        border-radius: 5px;
+    }
+    
+    
+</style>
+<body>
+    <div class="menu">
+        <h1>Tuyển dụng</h1>
+        <form class="mondai4">
+            <lable for="name">Họ và tên:</lable><br/>
+            <input class="box" type="text" id="name" required><br/>
+            <lable for="email">Email:</lable><br/>
+            <input class="box" type="email" id="email" required><br/>
+            <label for="phone">Số điện thoại:</label><br/>
+            <input class="box" type="phone" id="phone" c><br/>
+            <label for="#">CV:</label><br/>
+            <button>Choose File</button>No file chosen<br/>
+            <label  for="messega">Tin nhắn:</label><br/>
+            <textarea class="box" rows="4"></textarea><br/>
+            <input id="submit" type="submit" value="Gửi">
+
+        </form>
+    </div>
+    <div class="menu1">
+        <h1>Đăng kí tài khoản</h1>
+        <form class="mondai5">
+            <label for="name">Họ và tên:</label><br/>
+            <input class="box1" type="text" required><br/>
+            <label for="email">Email:</label><br/>
+            <input class="box1" type="email" required><br/>
+            <label for="password">Mật khẩu:</label><br/>
+            <input class="box1" type="password" required><br>
+            <label for="confirm password">Xác nhận mật khẩu:</label><br/>
+
+            <input class="box1" type="confirm password"><br/>
+            <button class="button">Đăng kí</button>
+
+
+        </form>
+    </div>
+</body>
+</html>

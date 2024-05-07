@@ -1,0 +1,92 @@
+
+body{
+    margin-right:500px
+    
+}
+.tittle{
+    width:150px;
+    height:30px;
+    margin:auto;
+    background-color: rgb(126, 160, 201);
+    color:white;
+    text-align:center ;
+}
+.mondai1{
+    text-align: center;
+}
+span{
+    color:rgb(44, 32, 211);
+}
+.item{
+    background-color: black;
+    color:white;
+    display:inline;
+    padding:10px;
+    border-radius: 5px;
+    
+    
+}
+.fodder{
+         text-align: center;
+}
+  .mondai2{
+    background-image: url("https://c.pxhere.com/photos/dc/cb/umbrellas_sky_rain_colorful_parasol_cover_shelter-715913.jpg!s2");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:300px;
+    position:relative;
+}
+.bg-image{
+    position:absolute;
+    width:100%;
+    height:300px;
+  background-color: black;
+  opacity:0.6;
+}
+.main{
+    text-align:center
+    
+    
+}
+.item1{
+    position:relative;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    padding:20px
+
+}
+.item2{
+    position:relative;
+    background-color:brown;
+    color:white;
+    margin:auto;
+    width:300px;
+    height:40px;
+    padding-top: 20px;
+
+    
+    
+}
+.mondai3{
+    border:1px solid rgb(185, 170, 170);
+    margin:20px;
+    border-right-color:red;
+   
+}
+.img{
+    text-align: center;
+}
+.vd2{
+    color:red;
+    
+    
+
+}
+#vd2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:70%;
+    
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-HTMK</title>
+</head>
+<style>
+    body{
+        padding-left: 200px;
+        padding-right:0px
+    }
+    img{
+        width:100px;
+        height:80px;
+        border:1px solid white;
+        margin:30px;
+        border-radius: 10px;
+        
+    }
+     
+    img:hover{
+        background-color:rgb(179, 186, 202);
+    }
+    #cardnumber{
+        padding:20px;
+        width:600px;
+        border-radius: 10px;
+        margin-top:10px;
+        
+        
+
+    }
+    #cardnumber:hover{
+        border-color: blueviolet;
+    }
+    
+    #date{
+        width:200px;
+        height:40px;
+        border-radius: 10px;
+    }
+    
+    #password{
+        width:200px;
+        height:40px;
+        border-radius: 10px;
+    
+    }
+    .menu{
+        display:flex;
+        
+    }
+    .CVV{
+        margin-left:200px  }
+        .button{
+            width:150px;
+            height:50px;
+            margin-top:30px;
+            background-color: blue;
+            color:white;
+            border-radius: 20px;
+            border-color:white;
+        }
+
+
+</style>
+<body>
+    <h1>Select Card</h1>
+    <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/2560px-Mastercard-logo.svg.png">
+<img src="https://cdn-icons-png.flaticon.com/512/196/196566.png">
+<img src="https://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Visa-icon.png">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeb5jtXwMoK4TntKobChnGHDLrny0MS7asA18XS5b_hQ&s">
+<img src="https://www.discoversignage.com/uploads/DGN_AcceptanceMark_2C_Hrz_CMYK2.jpg">
+
+    </div>
+    <label for="#">Card Number</label><br/>
+    <input type="phone" id="cardnumber">
+    <div class="menu">
+    <div>
+        <label for="expiry date">Expiry Date</label><br>
+        <input type="text" id="date" placeholder="MM/YY"></div>
+    
+    <div class="CVV">
+        <label for="#">CVC/CVV</label><br/>
+        <input type="password" id="password" placeholder="****">
+    </div>
+    </div>
+    <button class="button">Save </button>
+    
+       
+    
+</body>
+</html>
